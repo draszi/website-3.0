@@ -4,4 +4,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
     base: '/website-3.0/',
 //   plugins: [tailwindcss()],
+    build: {
+        outDir: 'docs', // Changes output from 'dist' to 'docs'
+  },
 })
