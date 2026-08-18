@@ -20,10 +20,10 @@ const blobs = [
 let wrapperX = 0;
 let wrapperY = 0;
 
-// Dragging state
-let isDragging = false;
-let offsetX = 0;
-let offsetY = 0;
+// // Dragging state
+// let isDragging = false;
+// let offsetX = 0;
+// let offsetY = 0;
 
 // Blob follower positions
 let followers = [
